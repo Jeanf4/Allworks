@@ -1,8 +1,8 @@
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
-} from "https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js";
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
+} from "https://www.gstatic.com/firebasejs/10.5.2/firebase-auth.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
 import { auth } from "./app/firebase.js";
 
 document.addEventListener("DOMContentLoaded", function () {

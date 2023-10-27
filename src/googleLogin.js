@@ -1,10 +1,10 @@
 import {
   GoogleAuthProvider,
   signInWithPopup,
-} from "https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js";
+} from "https://www.gstatic.com/firebasejs/10.5.2/firebase-auth.js";
 import { auth } from "./app/firebase.js";
 
-const googleLogin = document.getElementById("google-login123");
+const googleLogin = document.querySelector("#google-login123");
 
 googleLogin.addEventListener("click", async () => {
   const provider = new GoogleAuthProvider();

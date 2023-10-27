@@ -1,4 +1,4 @@
-import { signOut } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js";
+import { signOut } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-auth.js";
 import { auth } from "./app/firebase.js";
 
 document.addEventListener("DOMContentLoaded", function () {
